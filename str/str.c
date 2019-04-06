@@ -8,7 +8,7 @@ int main()
 
 	char str1[100],str2[100],ch;
 
-	printf("1-Is substring\n");
+	printf("1-Is substring\n2-rmv-delimt\n");
 	scanf("\n%c",&ch);
 
 	switch(ch)
@@ -51,7 +51,7 @@ void issubstring(char str1[],char str2[])
 		}
 		if(j == l2)
 		{
-			printf("string found\n");
+			printf("string found \n");
 			return;
 		}
 	}
